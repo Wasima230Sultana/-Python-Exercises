@@ -3,3 +3,9 @@ num2 = int(input("Enter second number : "))
 
 power = num1 ** num2
 print(f"Number {num1} power {num2} is {power}.")
+
+maximum = max(num1, num2)
+minimum = min(num1, num2)
+print(f"Maximum number is : {maximum}.")
+print(f"Minimum number is : {minimum}.")
+
