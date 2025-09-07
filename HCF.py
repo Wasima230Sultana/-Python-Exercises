@@ -13,3 +13,6 @@ def hcf_is(x, y):
 
 
 print(f"H.C.F is {(hcf_is(num1, num2))}")
+
+lcm = (num2 * num1) / (hcf_is(num1, num2))
+print(f"LCM is {lcm}")
